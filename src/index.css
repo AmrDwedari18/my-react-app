@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --font-base: 'Cormorant Upright', serif;
+  --font-alt: 'Open Sans', sans-serif;
+  
+  --color-golden: #DCCA87;
+  --color-black: #0C0C0C;
+  --color-gray: #545454;
+  --color-gray1: #333;
+  --color-crimson: #F5EFDB;
+  --color-grey: #AAAAAA;
+  --color-white: #FFFFFF;
+  --color-purple: #EA6D84;
+  --color-blue: #061141;
+  --color-blue-1: #141E4B;
+  --color-blue-line: #444C70;
+  --color-yellow: #fd5400c1;
+  --color-orange: #c34100;
+  --color-sky-yellow: #FADE09;
+  --color-banana: #ffde89;
+  --color-ice-white: #F0F0F0;
+  --color-sky-blue: #21D3E1;
+  --color-sky-blue-1: rgba(33, 211, 225, 0.5);
+  --color-sky-blue-2: #7eced5;
+  --color-sky-blue-3: #bcdbde;
+  --color-cafe: #4f2a1b;
+  --color-black-1: rgba(17, 17, 17, 0.4);
+  --color-black-2: rgba(17, 17, 17, 0.4);
+  --color-brouwn: rgba(250, 220, 10, 0.3);
+  --color-brouwn-1: #3c3939;
+  --color-brouwn-2: rgba(250, 220, 10, 0.2);
+  --color-container: rgba(255, 255, 255, 0.06);
+  --color-container-1: rgba(255, 255, 255, 0.604);
+  --color-faq-background: rgba(255, 255, 255, 0.06);
+  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+  --scroll-thumb-color: #06114192;
+  --text-color-light: hsl(var(--hue-color), 8%, 60%);
+  /*========== Hover overlay ==========*/
+  --img-transition: .3s;
+  --img-scale: scale(1.1);
+  /*========== Margenes Bottom ==========*/
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-25: 1.25rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.slide-bottom {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/*=============== SCROLL BAR ===============*/
+
+::-webkit-scrollbar {
+  width: .60rem;
+  background-color: var(--color-golden);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-orange);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-yellow);
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}

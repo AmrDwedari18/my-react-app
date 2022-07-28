@@ -1,0 +1,221 @@
+.import {
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+#textbox {
+    width: 100%;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    height: auto;
+    padding: 14px 26px;
+    margin: 0 10px 20px 0;
+    font-weight: bold;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    border: 0;
+    position: relative;
+    outline: none;
+    text-shadow: none;
+    text-decoration: none;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    max-width: 100%;
+
+    font-weight: bold;
+    border-color: #fff;
+    background-color: var(--color-black);
+    color: rgb(255, 255, 255) !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+
+ }
+
+ #textbox:hover {
+    color: var(--color-gray1);
+}
+
+.import_img {
+    justify-content: center;
+    width: 40%;
+    height: 40%;
+}
+
+.import_text {
+
+font-family: "Open Sans";
+font-style: normal;
+font-weight: 550;
+font-size: 25px;
+line-height: 20px;
+
+color: #000000;
+}
+
+.margin_import {
+    padding-top: 15px;
+}
+
+/* Button */
+
+/*-------------------- button text --------------------*/
+.text2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+
+}
+
+/*-------------------- button --------------------*/
+
+.button_margin2 {
+    padding-top: 40px;
+}
+
+.spb_button2[data-align="center"] {
+    text-align: center;
+}
+
+a.sf-button2 {
+    width: 100%;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    height: auto;
+    padding: 14px 26px;
+    margin: 0 10px 20px 0;
+    font-weight: bold;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    border: 0;
+    position: relative;
+    outline: none;
+    text-shadow: none;
+    text-decoration: none;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    max-width: 100%;
+
+    font-weight: bold;
+    border-color: #fff;
+    background-color: var(--color-black);
+    color: rgb(255, 255, 255) !important;
+
+
+}
+
+.text2:hover {
+    color: var(--color-gray1);
+}
+
+/* textarea */
+
+span.wpcf7-form-control-wrap > input, span.wpcf7-form-control-wrap > textarea, span.wpcf7-form-control-wrap > select {
+    margin: 0 0 10px!important;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea, select, .wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 textarea, .wpcf7 select, .ginput_container input[type="text"], .ginput_container input[type="email"], .ginput_container textarea, .ginput_container select, .mymail-form input[type="text"], .mymail-form input[type="email"], .mymail-form textarea, .mymail-form select, input[type="date"], input[type="tel"], input.input-text, input[type="number"], .select2-container .select2-choice {
+    border-color: #eaeaea;
+    background-color: #fff;
+    color: #999;
+}
+
+.wpcf7 textarea {
+    height: 100px!important;
+}
+
+textarea, .wpcf7 textarea {
+    height: auto;
+}
+
+
+input[type="text"], input[type="email"], input[type="password"], input[type="search"], textarea, select, .wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 textarea, .wpcf7 select, .ginput_container input[type="text"], .ginput_container input[type="email"], .ginput_container textarea, .ginput_container select, .mymail-form input[type="text"], .mymail-form input[type="email"], .mymail-form textarea, .mymail-form select, input[type="date"], input[type="tel"], input[type="number"] {
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    border: 1px solid #e3e3e3;
+    font-size: 14px!important;
+    height: 52px;
+    border-radius: 2px;
+    -webkit-appearance: none;
+}
+
+textarea {
+    padding: 14px 18px;
+}
+
+textarea {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+textarea {
+    overflow: auto;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+textarea {
+    writing-mode: horizontal-tb !important;
+    font-family: monospace;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    background-color: field;
+    column-count: initial !important;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding: 2px;
+}
+
+@media screen and (max-width: 425px) {
+    .import {
+        padding-top: 40%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .import {
+        padding-top: 45%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .import {
+        padding-top: 50%;
+    }
+}

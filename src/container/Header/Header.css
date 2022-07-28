@@ -1,0 +1,110 @@
+.header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 215px;
+    font-family: "Open Sans";
+    line-height: 48px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.paragraph {
+    font-family: "Open Sans";
+    line-height: 24px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15px;
+    padding-bottom: 5%;
+}
+
+
+
+
+.footer {
+    font-family: "Open Sans";
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: var(--color-white);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15px;
+    padding-bottom: 5%;
+
+    text-align: center;
+}
+
+
+/* Button */
+
+/*-------------------- button text --------------------*/
+.text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+
+}
+
+/*-------------------- button --------------------*/
+
+.spb_button[data-align="center"] {
+    text-align: center;
+}
+
+a.sf-button {
+    width: 75%;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    height: auto;
+    padding: 14px 26px;
+    margin: 0 10px 20px 0;
+    font-weight: bold;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    border: 0;
+    position: relative;
+    outline: none;
+    text-shadow: none;
+    text-decoration: none;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    max-width: 100%;
+
+    font-weight: bold;
+    border-color: #fff;
+    background-color: #fff;
+    color: #222 !important;
+
+
+}
+
+.text:hover {
+    color: var(--color-orange);
+}
+
+
+/* ------------- Start background video -----------------*/
+
+.video video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  /* ------------- background video End -----------------*/
